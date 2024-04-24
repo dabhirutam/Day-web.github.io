@@ -1,0 +1,109 @@
+:root{
+    --bs-link-hover-color-rgb: 220, 53, 69 !important;
+    --bs-link-color-rgb: 108, 117, 125;
+    --bs-link-color: rgb(227, 4, 26);
+    --bs-link-hover-color: rgba(255, 0, 0, 0.82);
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: rgba(236, 108, 121, 0.274);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(220 53 69);
+	border-radius: 10px;
+}
+
+.active-menu{
+    background-color: rgb(220 53 69);
+}
+
+.btn-outline-danger {
+    --bs-btn-hover-bg: rgb(189, 6, 25);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show,.navbar-nav .nav-link:hover{
+    background-color: rgb(220 53 69);
+
+}
+
+img{
+    width: 100%;
+}
+
+.py-5{
+    padding: 80px 0px !important;
+}
+
+.ser-card-box:hover{
+    background-color: rgb(221, 32, 51);
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.ser-card-box:hover.ser-card-box>.card-body>h3{
+    color: #fff !important;
+}
+
+.ser-card-box:hover.ser-card-box>.card-body>.servise-i{
+    background-color: #fff !important;
+    color: rgb(212, 32, 50) !important;
+}
+
+.port-box:hover>.port-card{
+    transform: translatey(0%) !important;
+}
+
+.lodder::after{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border-top: 5px solid red;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+        border-top: 5px solid rgb(255, 123, 0);
+    }
+    20%{
+        border-top: 5px solid rgb(255, 251, 0);
+    }
+    35%{
+        border-top: 5px solid rgb(123, 255, 0);
+    }
+    50%{
+        border-top: 5px solid rgb(0, 255, 64);
+    }
+    65%{
+        border-top: 5px solid rgb(0, 255, 255);
+    }
+    75%{
+        border-top: 5px solid rgb(0, 38, 255);
+    }
+    90%{
+        border-top: 5px solid rgb(204, 0, 255);
+    }
+    100%{
+        transform: rotate(360deg);
+        border-top: 5px solid rgb(255, 0, 43);
+    }
+}
+
+@keyframes fade{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

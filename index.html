@@ -1,0 +1,1835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY - We are team of talented designers making websites with Bootstrap</title>
+    <!-- Favicon icon -->
+    <link rel="icon" href="images/logo.jpg">
+    <!-- Bootstrap-icon css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Owl-carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custem css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Lodder-Wraper start -->
+    <div class="lodder-wapper bg-black"
+        style="height: 100vh;width: 100vw;z-index: 1040;position: fixed;display: flex;justify-content: center;align-items: center;">
+        <div class="lodder bg-black rounded-circle position-relative d-flex align-items-center justify-content-center"
+            style="width: 300px;aspect-ratio: 1/1;box-shadow: 0px 0px px #fff;">
+            <h2 class="text-white fw-normal" style="animation: fade 2s linear infinite;">Loadding...</h2>
+        </div>
+    </div>
+    <!-- Lodder-Wraper end -->
+
+    <!-- offcanvas menus start -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menus</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-unstyled">
+                <li><a href="#" class="text-decoration-none fw-bolder d-block active">Home</a></li>
+                <li><a href="#" class="text-decoration-none fw-bolder d-block">About</a></li>
+                <li><a href="#" class="text-decoration-none fw-bolder d-block">Service</a></li>
+                <li><a href="#" class="text-decoration-none fw-bolder d-block">Portfolio</a></li>
+                <li><a href="#" class="text-decoration-none fw-bolder d-block">Team</a></li>
+                <li><a href="#" class="text-decoration-none fw-bolder d-block">Contect</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- offcanvas menus end -->
+
+    <!-- Model app start-->
+    <div class="modal fade" id="App" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div id="app" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/portfolio/masonry-portfolio-1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/masonry-portfolio-4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/masonry-portfolio-7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#app" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon btn btn-danger" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#app" data-bs-slide="next">
+                            <span class="carousel-control-next-icon btn btn-danger" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Model app end-->
+
+    <!-- Model Branding start-->
+    <div class="modal fade" id="Branding" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div id="branding" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/portfolio/masonry-portfolio-3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/masonry-portfolio-6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/masonry-portfolio-9.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#branding"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon btn btn-danger" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#branding"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon btn btn-danger" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Model Branding end-->
+
+    <!-- Model Product start-->
+    <div class="modal fade" id="Product" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div id="product" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/portfolio/masonry-portfolio-2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/masonry-portfolio-5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/portfolio/masonry-portfolio-8.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#product"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon btn btn-danger" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#product"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon btn btn-danger" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Model Product end-->
+
+    <!-- Header start -->
+    <header class="fixed-top">
+        <div class="topbar bg-black p-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 d-flex align-items-center justify-content-center col-md-7"
+                        style="font-size: 15px;">
+                        <div class="col-7 col-sm-5 col-md-6 col-xl-6">
+                            <div href="#" class="gmail d-flex align-items-center text-decoration-none">
+                                <div class="col-1 text-danger">
+                                    <i class="bi bi-envelope"></i>
+                                </div>
+                                <a href="#"
+                                    class="col-8 text-white link-offset-1-hover link-light link-underline link-underline-opacity-0 link-underline-opacity-75-hover">
+                                    dabhirutam34@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-4 col-md-6 col-xl-6">
+                            <div class="contect d-flex align-items-center">
+                                <div class="col-1 text-danger">
+                                    <i class="bi bi-tablet"></i>
+                                </div>
+                                <div class="col text-white">
+                                    +91 9316313729
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 d-flex align-items-center justify-content-end d-none d-md-flex">
+                        <ul class="list-unstyled d-flex align-items-center my-0">
+                            <li><a href="#" title="Twitter" class="fs-5 px-2 icon-link-hover"
+                                    style="--bs-icon-link-transform: translate(0)">
+                                    <i class="bi bi-twitter"></i>
+                                </a></li>
+                            <li><a href="#" title="Facebook" class="fs-5 px-2 icon-link-hover"
+                                    style="--bs-icon-link-transform: translate(0)">
+                                    <i class="bi bi-facebook"></i>
+                                </a></li>
+                            <li><a href="#" title="Instagram" class="fs-5 px-2 icon-link-hover"
+                                    style="--bs-icon-link-transform: translate(0)">
+                                    <i class="bi bi-instagram"></i>
+                                </a></li>
+                            <li><a href="#" title=".in" class="fs-5 px-2 icon-link-hover"
+                                    style="--bs-icon-link-transform: translate(0)">
+                                    <i class="bi bi-linkedin"></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient" data-bs-theme="dark" style="--bs-navbar-padding-y:0%;">
+            <div class="container">
+                <a class="navbar-brand fs-2 fw-bold" href="#">DAY</a>
+                <a data-bs-toggle="offcanvas" href="#offcanvasExample" class="d-sm-inline-block d-lg-none">
+                    <i class="bi bi-list text-white fs-2"></i>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active p-3 text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3 text-white ms-1" href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3 text-white ms-1" href="#Services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3 text-white ms-1" href="#Portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3 text-white ms-1" href="#Team">Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link p-3 text-white ms-1 dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu bg-white" style="--bs-dropdown-link-hover-bg: rgb(220 53 69);">
+                                <li><a class="dropdown-item text-black" href="#">Dropdown 1</a></li>
+                                <li><a class="dropdown-item text-black" href="#">Deep Dropdown</a></li>
+                                <li><a class="dropdown-item text-black" href="#">Dropdown 2</a></li>
+                                <li><a class="dropdown-item text-black" href="#">Dropdown 3</a></li>
+                                <li><a class="dropdown-item text-black" href="#">Dropdown 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3 text-white ms-1" aria-disabled="true">Mega Dropdown</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3 text-white ms-1" href="#Contect">Contect</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header end -->
+
+    <main>
+        <!-- Banner start -->
+        <section class="banner d-flex justify-content-center flex-column"
+            style="background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../images/baner.jpg) center;height: 100vh;">
+            <div class="container">
+                <div class="row flex-column wow fadeInUp">
+                    <div class="col">
+                        <h1 class="display-5 fw-medium text-white">
+                            WELCOME TO DAY
+                        </h1>
+                    </div>
+                    <div class="col">
+                        <p class="text-white fs-3">
+                            We are team of talented designers making websites with Bootstrap
+                        </p>
+                    </div>
+                    <div class="col mt-3">
+                        <a href="#"
+                            class="btn btn-outline-danger text-white d-inline-block p-2 px-4 border text-decoration-none rounded">
+                            GET STARTED
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner end -->
+
+        <!-- About start -->
+        <section class="about py-5" id="About">
+            <div class="container">
+                <div class="row wow fadeInUp">
+                    <div class="col">
+                        <div class="heading text-center position-relative">
+                            <h2 class="fw-bold">ABOUT US</h2>
+                            <p
+                                class="display-5 text-secondary fw-bold opacity-25 position-absolute top-0 start-50 translate-middle">
+                                ABOUT US</p>
+                            <p class="mt-3 fs-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                consectetur velit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 wow fadeInUp">
+                    <div class="col-12 order-2 col-lg-6 order-lg-0">
+                        <div class="content">
+                            <h2>Voluptatem dignissimos provident quasi corporis</h2>
+                            <p class="fs-5 fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="bi bi-check-circle fs-5 text-danger me-1"></i>
+                                    <span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check-circle fs-5 text-danger me-1"></i>
+                                    <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle fs-5 text-danger me-1"></i>
+                                    <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                        in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
+                                        nulla pariatur.</span>
+                                </li>
+                            </ul>
+                            <a href="#"
+                                class="text-decoration-none fs-5 icon-link icon-link-hover border p-2 px-4 rounded btn btn-danger">
+                                <span>Read More</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4 col-lg-6">
+                        <div>
+                            <img class="object-fit-fill" src="images/about.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About end -->
+
+        <!-- Card start -->
+        <section class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="card col-12 border p-3 col-md-6 col-lg-4 rounded-0 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="card-body">
+                            <h2 class="text-danger mb-3">01</h2>
+                            <h2 class="mb-3 opacity-75">Lorem Ipsum</h2>
+                            <p class="fs-6 text-secondary">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et
+                                consectetur ducimus vero placeat</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 border p-3 col-md-6 col-lg-4 rounded-0 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="card-body">
+                            <h2 class="text-danger mb-3">02</h2>
+                            <h2 class="mb-3 opacity-75">Repellat Nihil</h2>
+                            <p class="fs-6 text-secondary">Dolorem est fugiat occaecati voluptate velit esse. Dicta
+                                veritatis dolor quod et vel dire leno para dest</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 border p-3 col-md-6 col-lg-4 rounded-0 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="card-body">
+                            <h2 class="text-danger mb-3">03</h2>
+                            <h2 class="mb-3 opacity-75">Ad ad velit qui</h2>
+                            <p class="fs-6 text-secondary">Molestiae officiis omnis illo asperiores. Aut doloribus vitae
+                                sunt debitis quo vel nam quis</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 border p-3 col-md-6 col-lg-4 rounded-0 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="card-body">
+                            <h2 class="text-danger mb-3">04</h2>
+                            <h2 class="mb-3 opacity-75">Repellendus molestiae</h2>
+                            <p class="fs-6 text-secondary">Inventore quo sint a sint rerum. Distinctio blanditiis
+                                deserunt quod soluta quod nam mider lando casa</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 border p-3 col-md-6 col-lg-4 rounded-0 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="card-body">
+                            <h2 class="text-danger mb-3">05</h2>
+                            <h2 class="mb-3 opacity-75">Sapiente Magnam</h2>
+                            <p class="fs-6 text-secondary">Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui
+                                possimus est repellendus est quibusdam</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 border p-3 col-md-6 col-lg-4 rounded-0 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="card-body">
+                            <h2 class="text-danger mb-3">06</h2>
+                            <h2 class="mb-3 opacity-75">Facilis Impedit</h2>
+                            <p class="fs-6 text-secondary">Quis eum numquam veniam ea voluptatibus voluptas. Excepturi
+                                aut nostrum repudiandae voluptatibus corporis sequi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Card end -->
+
+        <!-- Logos start -->
+        <section class="mt-5 p-3 bg-secondary-subtle">
+            <div class="container">
+                <div class="row">
+                    <div class="owl-carousel">
+                        <div class="item">
+                            <img style="width: 100px;transition: all .4s;"
+                                onMouseOver="this.style.transform='scale(1.1)'"
+                                onMouseOut="this.style.transform='scale(1)'" class="object-fit-fill"
+                                src="images/logos/client-1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img style="width: 100px;transition: all .4s;"
+                                onMouseOver="this.style.transform='scale(1.1)'"
+                                onMouseOut="this.style.transform='scale(1)'" class="object-fit-fill"
+                                src="images/logos/client-2.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img style="width: 100px;transition: all .4s;"
+                                onMouseOver="this.style.transform='scale(1.1)'"
+                                onMouseOut="this.style.transform='scale(1)'" class="object-fit-fill"
+                                src="images/logos/client-3.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img style="width: 100px;transition: all .4s;"
+                                onMouseOver="this.style.transform='scale(1.1)'"
+                                onMouseOut="this.style.transform='scale(1)'" class="object-fit-fill"
+                                src="images/logos/client-4.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img style="width: 100px;transition: all .4s;"
+                                onMouseOver="this.style.transform='scale(1.1)'"
+                                onMouseOut="this.style.transform='scale(1)'" class="object-fit-fill"
+                                src="images/logos/client-5.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img style="width: 100px;transition: all .4s;"
+                                onMouseOver="this.style.transform='scale(1.1)'"
+                                onMouseOut="this.style.transform='scale(1)'" class="object-fit-fill"
+                                src="images/logos/client-6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Logos end -->
+
+        <!-- Servise strat -->
+        <section class="Servise mt-5 pt-5" id="Services">
+            <div class="container">
+                <div class="row mb-5 wow fadeInUp">
+                    <div class="col">
+                        <div class="heading text-center position-relative">
+                            <h2 class="fw-bold">SERVICES</h2>
+                            <p
+                                class="display-5 text-secondary fw-bold opacity-25 position-absolute top-0 start-50 translate-middle">
+                                SERVICES</p>
+                            <p class="mt-3 fs-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                consectetur velit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-gap-4">
+                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="card text-center ser-card-box z-0" style="transition: all .4s;">
+                            <div class="card-body py-5">
+                                <div class="servise-i p-3 px-4 mx-auto fs-3 bg-danger text-white mb-4 position-relative"
+                                    style="transition: all .4s;width: 80px;aspect-ratio: 1/1;">
+                                    <i class="bi bi-activity"></i>
+                                    <div class="position-absolute z-n1"
+                                        style="background-color: rgba(204, 1, 1, 0.521);width: 100%;aspect-ratio: 1/1;top: -10%;left: -10%;">
+                                    </div>
+                                </div>
+                                <h3 class="text-black" style="transition: all .4s;">Nesciunt Mete</h3>
+                                <p class="text-center mt-3 px-2">Provident nihil minus qui consequatur non omnis
+                                    maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="card text-center ser-card-box z-0" style="transition: all .4s;">
+                            <div class="card-body py-5">
+                                <div class="servise-i p-3 px-4 mx-auto fs-3 bg-danger text-white mb-4 position-relative"
+                                    style="transition: all .4s;width: 80px;aspect-ratio: 1/1;">
+                                    <i class="bi bi-broadcast"></i>
+                                    <div class="position-absolute z-n1"
+                                        style="background-color: rgba(204, 1, 1, 0.521);width: 100%;aspect-ratio: 1/1;top: -10%;left: -10%;">
+                                    </div>
+                                </div>
+                                <h3 class="text-black" style="transition: all .4s;">Eosle Commodi</h3>
+                                <p class="text-center mt-3 px-2">Provident nihil minus qui consequatur non omnis
+                                    maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="card text-center ser-card-box z-0" style="transition: all .4s;">
+                            <div class="card-body py-5">
+                                <div class="servise-i p-3 px-4 mx-auto fs-3 bg-danger text-white mb-4 position-relative"
+                                    style="transition: all .4s;width: 80px;aspect-ratio: 1/1;">
+                                    <i class="bi bi-easel"></i>
+                                    <div class="position-absolute z-n1"
+                                        style="background-color: rgba(204, 1, 1, 0.521);width: 100%;aspect-ratio: 1/1;top: -10%;left: -10%;">
+                                    </div>
+                                </div>
+                                <h3 class="text-black" style="transition: all .4s;">Ledo Markt</h3>
+                                <p class="text-center mt-3 px-2">Provident nihil minus qui consequatur non omnis
+                                    maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="card text-center ser-card-box z-0" style="transition: all .4s;">
+                            <div class="card-body py-5">
+                                <div class="servise-i p-3 px-4 mx-auto fs-3 bg-danger text-white mb-4 position-relative"
+                                    style="transition: all .4s;width: 80px;aspect-ratio: 1/1;">
+                                    <i class="bi bi-bounding-box-circles"></i>
+                                    <div class="position-absolute z-n1"
+                                        style="background-color: rgba(204, 1, 1, 0.521);width: 100%;aspect-ratio: 1/1;top: -10%;left: -10%;">
+                                    </div>
+                                </div>
+                                <h3 class="text-black" style="transition: all .4s;">Asperiores Commodit</h3>
+                                <p class="text-center mt-3 px-2">Provident nihil minus qui consequatur non omnis
+                                    maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="card text-center ser-card-box z-0" style="transition: all .4s;">
+                            <div class="card-body py-5">
+                                <div class="servise-i p-3 px-4 mx-auto fs-3 bg-danger text-white mb-4 position-relative"
+                                    style="transition: all .4s;width: 80px;aspect-ratio: 1/1;">
+                                    <i class="bi bi-calendar4-week"></i>
+                                    <div class="position-absolute z-n1"
+                                        style="background-color: rgba(204, 1, 1, 0.521);width: 100%;aspect-ratio: 1/1;top: -10%;left: -10%;">
+                                    </div>
+                                </div>
+                                <h3 class="text-black" style="transition: all .4s;">Velit Doloremque</h3>
+                                <p class="text-center mt-3 px-2">Provident nihil minus qui consequatur non omnis
+                                    maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="card text-center ser-card-box z-0" style="transition: all .4s;">
+                            <div class="card-body py-5">
+                                <div class="servise-i p-3 px-4 mx-auto fs-3 bg-danger text-white mb-4 position-relative"
+                                    style="transition: all .4s;width: 80px;aspect-ratio: 1/1;">
+                                    <i class="bi bi-chat-square-text"></i>
+                                    <div class="position-absolute z-n1"
+                                        style="background-color: rgba(204, 1, 1, 0.521);width: 100%;aspect-ratio: 1/1;top: -10%;left: -10%;">
+                                    </div>
+                                </div>
+                                <h3 class="text-black" style="transition: all .4s;">Dolori Architecto</h3>
+                                <p class="text-center mt-3 px-2">Provident nihil minus qui consequatur non omnis
+                                    maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Servise end -->
+
+        <!-- Call start -->
+        <section class="call mt-5 py-5"
+            style=" background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/call.jpg) center;background-attachment: fixed;">
+            <div class="container">
+                <div class="row justify-content-center py-3 wow fadeIn zoomIn" data-wow-delay=".4s">
+                    <div class="col-10 text-center text-white">
+                        <h2 class="">Call To Action</h2>
+                        <p class="fs-5 my-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                        <a href="#"
+                            class="btn btn-outline-danger border p-2 px-4 text-white text-decoration-none rounded">
+                            Call To Action
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call end -->
+
+        <!-- Portofoliyo start -->
+        <section class="portofoliyo my-5 py-5" id="Portfolio">
+            <div class="container">
+                <div class="row wow fadeInUp">
+                    <div class="col">
+                        <div class="heading text-center position-relative">
+                            <h2 class="fw-bold">PORTFOLIO</h2>
+                            <p
+                                class="display-5 text-secondary fw-bold opacity-25 position-absolute top-0 start-50 translate-middle">
+                                PORTFOLIO</p>
+                            <p class="mt-3 fs-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                consectetur velit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <ul class="nav nav-pills justify-content-center mb-5" id="myTab" role="tablist"
+                        style="--bs-nav-pills-link-active-bg: rgb(227, 4, 26);">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active rounded-pill" id="home-tab" data-bs-toggle="tab"
+                                data-bs-target="#All-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                                aria-selected="true">All</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link rounded-pill" id="profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#App-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                                aria-selected="false">App</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link rounded-pill" id="contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#Card-tab-pane" type="button" role="tab"
+                                aria-controls="contact-tab-pane" aria-selected="false">Card</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link rounded-pill" id="contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#Web-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                                aria-selected="false">Web</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content d-flex justify-content-center" id="myTabContent">
+                        <div class="tab-pane fade show active" id="All-tab-pane" role="tabpanel"
+                            aria-labelledby="home-tab" tabindex="0">
+                            <div class="images d-flex flex-wrap wow fadeInUp">
+                                <div class="col-12 px-3 col-md-6 col-lg-4">
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-1.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>App 1</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#App" title="App 1"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-4 overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-6.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Branding 2</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Branding" title="Branding 2"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="overflow-hidden position-relative port-box d-lg-none">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-3.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Branding 1</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Branding" title="Branding 1"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-4 overflow-hidden position-relative port-box d-lg-none">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-4.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>App 2</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#App" title="App 2"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 px-3 col-md-6 col-lg-4 px-lg-2">
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-2.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Product 1</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Product" title="Product 1"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-4 overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-5.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Product 2</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Product" title="Product 2"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-5 overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-9.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Branding 3</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Branding" title="Branding 3"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="overflow-hidden position-relative port-box d-lg-none">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-7.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>App 3</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#App" title="App 3"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-4 overflow-hidden position-relative port-box d-lg-none">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-8.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Product 3</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Product" title="Product 3"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 px-3 col-lg-4 d-none d-lg-block">
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-3.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Branding 1</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Branding" title="Branding 1"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-4 overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-4.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>App 2</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#App" title="App 2"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-7.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>App 3</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#App" title="App 3"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-4 overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-8.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Product 3</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Product" title="Product 3"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="App-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                            tabindex="0">
+                            <div class="images d-flex flex-wrap row-gap-3 fadeInUp">
+                                <div class="col-12 col-lg-4 px-3">
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-1.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>App 1</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#App" title="App 1"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4 px-3">
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-4.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Branding 2</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Branding" title="Branding 2"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4 px-3">
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-7.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Branding 2</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Branding" title="Branding 2"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Card-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                            tabindex="0">
+                            <div class="images d-flex flex-wrap row-gap-3 fadeInUp">
+                                <div class="col-12 col-lg-4 px-3">
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-2.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>App 1</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#App" title="App 1"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4 px-3">
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-5.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Branding 2</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Branding" title="Branding 2"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4 px-3">
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-8.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Branding 2</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Branding" title="Branding 2"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Web-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                            tabindex="0">
+                            <div class="images d-flex flex-wrap row-gap-3 fadeInUp">
+                                <div class="col-12 col-lg-4 px-3">
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-3.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>App 1</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#App" title="App 1"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4 px-3">
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-6.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Branding 2</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Branding" title="Branding 2"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4 px-3">
+                                    <div class="overflow-hidden position-relative port-box">
+                                        <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-9.jpg"
+                                            alt="">
+                                        <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                            style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                            <div class="col-6">
+                                                <h5>Branding 2</h5>
+                                                <p>Lorem ipsum, dolor sit</p>
+                                            </div>
+                                            <div class="col-6 text-end fs-3">
+                                                <a data-bs-toggle="modal" href="#Branding" title="Branding 2"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-zoom-in"></i>
+                                                </a>
+                                                <a href="#" title="More Details"
+                                                    class="icon-link-hover text-decoration-none">
+                                                    <i class="bi bi-link-45deg mx-2"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                    <!-- <div class="col-12 mb-4 wow fadeInUp">
+                        <div class="menus">
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li class="me-3"><a href="#"
+                                        class="p-1 px-4 text-decoration-none rounded-pill bg-danger btn text-white">All</a>
+                                </li>
+                                <li class="me-3"><a href="#"
+                                        class="p-1 px-4 text-decoration-none rounded-pill btn btn-outline-danger">App</a>
+                                </li>
+                                <li class="me-3"><a href="#"
+                                        class="p-1 px-4 text-decoration-none rounded-pill btn btn-outline-danger">Card</a>
+                                </li>
+                                <li class="me-3"><a href="#"
+                                        class="p-1 px-4 text-decoration-none rounded-pill btn btn-outline-danger">Web</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="images d-flex flex-wrap wow fadeInUp">
+                        <div class="col-12 px-3 col-md-6 col-lg-4">
+                            <div class="overflow-hidden position-relative port-box">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-1.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>App 1</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#App" title="App 1"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-4 overflow-hidden position-relative port-box">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-6.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>Branding 2</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#Branding" title="Branding 2"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="overflow-hidden position-relative port-box d-lg-none">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-3.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>Branding 1</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#Branding" title="Branding 1"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-4 overflow-hidden position-relative port-box d-lg-none">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-4.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>App 2</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#App" title="App 2"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 px-3 col-md-6 col-lg-4 px-lg-2">
+                            <div class="overflow-hidden position-relative port-box">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-2.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>Product 1</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#Product" title="Product 1"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-4 overflow-hidden position-relative port-box">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-5.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>Product 2</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#Product" title="Product 2"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-5 overflow-hidden position-relative port-box">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-9.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-3 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>Branding 3</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#Branding" title="Branding 3"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="overflow-hidden position-relative port-box d-lg-none">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-7.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>App 3</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#App" title="App 3"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 overflow-hidden position-relative port-box d-lg-none">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-8.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>Product 3</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#Product" title="Product 3"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 px-3 col-lg-4 d-none d-lg-block">
+                            <div class="overflow-hidden position-relative port-box">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-3.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>Branding 1</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#Branding" title="Branding 1"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-4 overflow-hidden position-relative port-box">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-4.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>App 2</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#App" title="App 2"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="overflow-hidden position-relative port-box">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-7.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>App 3</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#App" title="App 3"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 overflow-hidden position-relative port-box">
+                                <img class="object-fit-fill" src="images/portfolio/masonry-portfolio-8.jpg" alt="">
+                                <div class="port-card bg-white bg-opacity-75 position-absolute bottom-0 start-0 d-flex align-items-center px-4 pt-2"
+                                    style="width: 100%;transform: translateY(100%);transition: all .2s;">
+                                    <div class="col-6">
+                                        <h5>Product 3</h5>
+                                        <p>Lorem ipsum, dolor sit</p>
+                                    </div>
+                                    <div class="col-6 text-end fs-3">
+                                        <a data-bs-toggle="modal" href="#Product" title="Product 3"
+                                            class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-zoom-in"></i>
+                                        </a>
+                                        <a href="#" title="More Details" class="icon-link-hover text-decoration-none">
+                                            <i class="bi bi-link-45deg mx-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- Portofoliyo end -->
+
+        <!-- Pricing start -->
+        <section class="pricing">
+            <div class="container">
+                <div class="row wow fadeInUp">
+                    <div class="col">
+                        <div class="heading text-center position-relative">
+                            <h2 class="fw-bold">PRICING</h2>
+                            <p
+                                class="display-5 text-secondary fw-bold opacity-25 position-absolute top-0 start-50 translate-middle">
+                                PRICING</p>
+                            <p class="mt-3 fs-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                consectetur velit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 align-items-center justify-content-center">
+                    <div class="col-12 p-0 col-md-6 px-md-1 col-xl-4 px-xl-0 wow fadeIn zoomIn">
+                        <div class="main-box bg-white shadow p-5 rounded">
+                            <ul class="list-unstyled fs-5 text-secondary">
+                                <li class="text-black fw-medium">
+                                    Free Plan
+                                </li>
+                                <li class="my-4">
+                                    <span class="text-danger fs-2">$0</span>/ month
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check text-success fs-4"></i>
+                                    <span class="ms-2"> Quam adipiscing vitae proin</span>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check text-success fs-4"></i>
+                                    <span class="ms-2">Nec feugiat nisl pretium</span>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check text-success fs-4"></i>
+                                    <span class="ms-2">Nulla at volutpat diam uteera</span>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center text-decoration-line-through">
+                                    <i class="bi bi-x fs-4"></i>
+                                    <span class="ms-2">Pharetra massa massa ultricies</span>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center text-decoration-line-through">
+                                    <i class="bi bi-x fs-4"></i>
+                                    <span class="ms-2">Massa ultricies mi quis hendrerit</span>
+                                </li>
+                            </ul>
+                            <div class="mx-auto mt-5 col-4 text-center col-lg-6">
+                                <a href="#" class="btn btn-outline-danger p-2 border-secondary-subtle border border-2"
+                                    style="width: 100%;">
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 p-0 my-5 col-md-6 order-md-3 col-xl-4 my-xl-0 order-xl-0 wow fadeIn zoomIn">
+                        <div class="bg-danger shadow p-5">
+                            <ul class="list-unstyled fs-5 text-white py-3">
+                                <li class="fw-medium">
+                                    Free Plan
+                                </li>
+                                <li class="my-4">
+                                    <span class="fs-2">$0</span>/ month
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check fs-4"></i>
+                                    <span class="ms-2"> Quam adipiscing vitae proin</span>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check fs-4"></i>
+                                    <span class="ms-2">Nec feugiat nisl pretium</span>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check fs-4"></i>
+                                    <span class="ms-2">Nulla at volutpat diam uteera</span>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check fs-4"></i>
+                                    <span class="ms-2">Pharetra massa massa ultricies</span>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check fs-4"></i>
+                                    <span class="ms-2">Massa ultricies mi quis hendrerit</span>
+                                </li>
+                            </ul>
+                            <div class="mx-auto my-5 col-4 text-center col-lg-6">
+                                <a href="#" class="btn btn-danger p-2 border-secondary-subtle border border-2"
+                                    style="width: 100%;">
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 p-0 col-md-6 px-md-1 col-xl-4 px-xl-0 wow fadeIn zoomIn">
+                        <div class="main-box bg-white shadow p-5 rounded">
+                            <ul class="list-unstyled fs-5 text-secondary">
+                                <li class="text-black fw-medium">
+                                    Free Plan
+                                </li>
+                                <li class="my-4">
+                                    <span class="text-danger fs-2">$0</span>/ month
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check text-success fs-4"></i>
+                                    <span class="ms-2"> Quam adipiscing vitae proin</span>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check text-success fs-4"></i>
+                                    <span class="ms-2">Nec feugiat nisl pretium</span>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check text-success fs-4"></i>
+                                    <span class="ms-2">Nulla at volutpat diam uteera</span>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check text-success fs-4"></i>
+                                    <span class="ms-2">Pharetra massa massa ultricies</span>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="bi bi-check text-success fs-4"></i>
+                                    <span class="ms-2">Massa ultricies mi quis hendrerit</span>
+                                </li>
+                            </ul>
+                            <div class="mx-auto mt-5 col-4 text-center col-lg-6">
+                                <a href="#" class="btn btn-outline-danger p-2 border-secondary-subtle border border-2"
+                                    style="width: 100%;">
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing end -->
+
+        <!-- Team start -->
+        <section class="team my-5 py-5" id="Team">
+            <div class="container">
+                <div class="row mb-5 wow fadeInUp">
+                    <div class="col">
+                        <div class="heading text-center position-relative">
+                            <h2 class="fw-bold">TEAM</h2>
+                            <p
+                                class="display-5 text-secondary fw-bold opacity-25 position-absolute top-0 start-50 translate-middle">
+                                TEAM</p>
+                            <p class="mt-3 fs-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                consectetur velit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 mb-md-4 col-lg-4 mb-lg-0 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="card p-3 text-center">
+                            <img class="rounded-circle img-flude px-5 mt-4" src="images/team/team-1.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="mt-3">Walter White</h3>
+                                <p class="fst-italic text-secondary">Web Development</p>
+                                <p class="fst-italic text-secondary fs-6">Magni qui quod omnis unde et eos
+                                    exercitationem
+                                    fuga et . Odio veritatis perspiciatis quaerat</p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled d-flex align-items-center my-0">
+                                        <li><a href="#" class="fs-5 px-2 icon-link-hover"
+                                                style="--bs-icon-link-transform: translate(0)">
+                                                <i class="bi bi-twitter"></i>
+                                            </a></li>
+                                        <li><a href="#" class="fs-5 px-2 icon-link-hover"
+                                                style="--bs-icon-link-transform: translate(0)">
+                                                <i class="bi bi-facebook"></i>
+                                            </a></li>
+                                        <li><a href="#" class="fs-5 px-2 icon-link-hover"
+                                                style="--bs-icon-link-transform: translate(0)">
+                                                <i class="bi bi-instagram"></i>
+                                            </a></li>
+                                        <li><a href="#" class="fs-5 px-2 icon-link-hover"
+                                                style="--bs-icon-link-transform: translate(0)">
+                                                <i class="bi bi-linkedin"></i>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-4 col-md-6 my-md-0 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="card p-3 text-center">
+                            <img class="rounded-circle img-flude px-5 mt-4" src="images/team/team-2.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="mt-3">Walter White</h3>
+                                <p class="fst-italic text-secondary">Web Development</p>
+                                <p class="fst-italic text-secondary fs-6">Magni qui quod omnis unde et eos
+                                    exercitationem
+                                    fuga et . Odio veritatis perspiciatis quaerat</p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled d-flex align-items-center my-0">
+                                        <li><a href="#" class="fs-5 px-2 icon-link-hover"
+                                                style="--bs-icon-link-transform: translate(0)">
+                                                <i class="bi bi-twitter"></i>
+                                            </a></li>
+                                        <li><a href="#" class="fs-5 px-2 icon-link-hover"
+                                                style="--bs-icon-link-transform: translate(0)">
+                                                <i class="bi bi-facebook"></i>
+                                            </a></li>
+                                        <li><a href="#" class="fs-5 px-2 icon-link-hover"
+                                                style="--bs-icon-link-transform: translate(0)">
+                                                <i class="bi bi-instagram"></i>
+                                            </a></li>
+                                        <li><a href="#" class="fs-5 px-2 icon-link-hover"
+                                                style="--bs-icon-link-transform: translate(0)">
+                                                <i class="bi bi-linkedin"></i>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="card p-3 text-center">
+                            <img class="rounded-circle img-flude px-5 mt-4" src="images/team/team-3.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="mt-3">Walter White</h3>
+                                <p class="fst-italic text-secondary">Web Development</p>
+                                <p class="fst-italic text-secondary fs-6">Magni qui quod omnis unde et eos
+                                    exercitationem
+                                    fuga et . Odio veritatis perspiciatis quaerat</p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled d-flex align-items-center my-0">
+                                        <li><a href="#" class="fs-5 px-2 icon-link-hover"
+                                                style="--bs-icon-link-transform: translate(0)">
+                                                <i class="bi bi-twitter"></i>
+                                            </a></li>
+                                        <li><a href="#" class="fs-5 px-2 icon-link-hover"
+                                                style="--bs-icon-link-transform: translate(0)">
+                                                <i class="bi bi-facebook"></i>
+                                            </a></li>
+                                        <li><a href="#" class="fs-5 px-2 icon-link-hover"
+                                                style="--bs-icon-link-transform: translate(0)">
+                                                <i class="bi bi-instagram"></i>
+                                            </a></li>
+                                        <li><a href="#" class="fs-5 px-2 icon-link-hover"
+                                                style="--bs-icon-link-transform: translate(0)">
+                                                <i class="bi bi-linkedin"></i>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team end -->
+
+        <!-- Contact start -->
+        <section class="contect" id="Contect">
+            <div class="container">
+                <div class="row mb-5 wow fadeInUp">
+                    <div class="col">
+                        <div class="heading text-center position-relative">
+                            <h2 class="fw-bold">CONTECT</h2>
+                            <p
+                                class="display-5 text-secondary fw-bold opacity-25 position-absolute top-0 start-50 translate-middle">
+                                CONTECT</p>
+                            <p class="mt-3 fs-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                                consectetur velit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="text-center p-3 pt-4 bg-white shadow rounded">
+                            <i class="bi bi-geo-alt rounded-circle text-danger fs-3"
+                                style="padding: 14px 18px;border: 2px dotted red;"></i>
+                            <h3 class="mt-4 fs-5">Address</h3>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div class="col-12 my-4 col-md-6 col-lg-3 my-lg-0 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="text-center p-3 pt-4 bg-white shadow rounded">
+                            <i class="bi bi-telephone rounded-circle text-danger fs-3"
+                                style="padding: 14px 18px;border: 2px dotted red;"></i>
+                            <h3 class="mt-4 fs-5">Call Us</h3>
+                            <p>+91 93163 13729</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 my-md-4 col-lg-3 my-lg-0 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="text-center p-3 pt-4 bg-white shadow rounded">
+                            <i class="bi bi-envelope rounded-circle text-danger fs-3"
+                                style="padding: 14px 18px;border: 2px dotted red;"></i>
+                            <h3 class="mt-4 fs-5">Email Us</h3>
+                            <p>dabhirutam34@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-12 my-sm-4 col-lg-6 mt-lg-4 wow fadeInUp" data-wow-delay=".2s">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                            frameborder="0" style="border:0; width: 100%; height: 400px;"></iframe>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-lg-4 wow fadeInUp" data-wow-delay=".3s">
+                        <form method="post">
+                            <div class=" bg-white shadow p-4 d-flex flex-wrap align-items-center">
+                                <div class="col-12 mb-3 col-md-6 mb-md-0 pe-md-3">
+                                    <input type="text" placeholder="Your Name"
+                                        class="p-2 ps-3 border border-secondary-subtle text-secondary opacity-50"
+                                        style="width: 100%;">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <input type="email" placeholder="Your Email"
+                                        class="p-2 ps-3 border border-secondary-subtle text-secondary opacity-50"
+                                        style="width: 100%;">
+                                </div>
+                                <div class="col-12 my-3">
+                                    <input type="text" placeholder="Subject"
+                                        class="p-2 ps-3 border border-secondary-subtle text-secondary opacity-50"
+                                        style="width: 100%;">
+                                </div>
+                                <div class="col-12">
+                                    <textarea rows="6" placeholder="Message" value="address"
+                                        class="p-2 ps-3 border border-secondary-subtle text-secondary opacity-50"
+                                        style="width: 100%;"></textarea>
+                                </div>
+                                <div class="col mt-4 text-center">
+                                    <a href="#" class="btn btn-danger">
+                                        Send Message
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact end -->
+    </main>
+
+    <!-- Footer start -->
+    <footer class="bg-black p-5 mt-5">
+        <div class="container">
+            <div class="row border-bottom border-secondary pb-5">
+                <div class="col-12 mb-3 col-md-6 col-lg-4">
+                    <div class="border-top border-4 border-danger text-center text-white p-4 rounded"
+                        style="background-color: rgba(31, 28, 28, 0.4);">
+                        <a class="navbar-brand fs-2 fw-bold" href="#">DAY</a>
+                        <p class="my-3">
+                            A108 Adam Street <br />
+                            New York, NY 535022
+                        </p>
+                        <p><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+                        <p><strong>Email:</strong> <span>info@example.com</span></p>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <ul class="list-unstyled d-flex align-items-center my-0">
+                                <li><a href="#"
+                                        class="fs-5 btn-outline-danger btn icon-link-hover border rounded-circle d-flex align-items-center justify-content-center"
+                                        style="--bs-icon-link-transform: translate(0);width: 40px;height: 40px;">
+                                        <i class="bi bi-twitter"></i>
+                                    </a></li>
+                                <li><a href="#"
+                                        class="fs-5 btn-outline-danger btn icon-link-hover border rounded-circle d-flex align-items-center justify-content-center mx-2"
+                                        style="--bs-icon-link-transform: translate(0);width: 40px;height: 40px;">
+                                        <i class="bi bi-facebook"></i>
+                                    </a></li>
+                                <li><a href="#"
+                                        class="fs-5 btn-outline-danger btn icon-link-hover border rounded-circle d-flex align-items-center justify-content-center me-2"
+                                        style="--bs-icon-link-transform: translate(0);width: 40px;height: 40px;">
+                                        <i class="bi bi-instagram"></i>
+                                    </a></li>
+                                <li><a href="#"
+                                        class="fs-5 btn-outline-danger btn icon-link-hover border rounded-circle d-flex align-items-center justify-content-center"
+                                        style="--bs-icon-link-transform: translate(0);width: 40px;height: 40px;">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-2">
+                    <div class="px-1 text-white text-center text-md-start">
+                        <h5>Useful Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none my-2 d-inline-block fw-bolder">Home</a></li>
+                            <li><a href="#" class="text-decoration-none fw-bolder">About Us</a></li>
+                            <li><a href="#" class="text-decoration-none my-2 d-inline-block fw-bolder">Service</a></li>
+                            <li><a href="#" class="text-decoration-none fw-bolder mb-2 d-inline-block">Terms of
+                                    service</a></li>
+                            <li><a href="#" class="text-decoration-none fw-bolder">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-2">
+                    <div class="px-1 text-white text-center text-md-start">
+                        <h5>Our Services</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none my-2 d-inline-block fw-bolder">Web Design</a>
+                            </li>
+                            <li><a href="#" class="text-decoration-none fw-bolder">Development</a></li>
+                            <li><a href="#" class="text-decoration-none my-2 d-inline-block fw-bolder"> Management</a>
+                            </li>
+                            <li><a href="#" class="text-decoration-none fw-bolder mb-2 d-inline-block">Marketing</a>
+                            </li>
+                            <li><a href="#" class="text-decoration-none fw-bolder">Graphic Design</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 mt-3 col-lg-4 mt-lg-0">
+                    <div class="text-white text-center text-lg-start">
+                        <h5>Our Newsletter</h5>
+                        <p class="my-3">Subscribe to our newsletter and receive the latest news about our products and
+                            services!</p>
+                        <div class="mt-4 d-flex align-items-center">
+                            <input type="text" class="col bg-transparent border border-dark p-2">
+                            <a href="#" class="btn btn-danger py-2 col-3 col-lg-4">
+                                Subscribe
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="text-center text-white">
+                    <p>© Copyright <strong>SiteName</strong> All Rights Reserved</p>
+                    <p>Designed by <a href="#" class="text-decoration-none fw-bolder text-danger">BootstrapMade</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/custem.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
